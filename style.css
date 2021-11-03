@@ -1,0 +1,141 @@
+body {
+    width: 1000px;
+    font-family: Tahoma;
+    margin: 0px auto;
+    font-size: 13px;
+}
+
+#menu_top {
+    background: blueviolet;
+    height: 40px;
+}
+#menu_top ul li a:hover{
+    background-color: #3cf22b;
+}
+
+#banner {
+    /* background: red; */
+    height: auto;
+    width: 1000px;
+}
+
+#main #left {
+    width: 700px;
+    /* background: aqua; */
+    float: left;
+    min-height: 400px;
+}
+
+#main #right {
+    width: 300px;
+    /* background: rgb(129, 129, 241); */
+    float: left;
+    min-height: 400px;
+    /* quy dinh chieu cao toi thieu */
+}
+
+#footer {
+    background: darkolivegreen;
+    width: 1000px;
+    text-align: center;
+    height: 60px;
+    color: whitesmoke;
+    clear: left;
+    line-height: 60px;
+}
+
+#menu_top ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu_top ul li {
+    list-style: none;
+    float: left;
+}
+
+#menu_top ul li a {
+    text-decoration: none;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: #fefeff;
+    padding: 0px 20px 0px 20px;
+    border-right: 1px solid #0e0404;
+}
+
+#menu_top ul li a.active {
+    background: #3cf22b;
+    color: black;
+    border: 1px solid black;
+}
+
+#banner image {
+    width: 1000px;
+}
+
+#main #left ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+#main #left ul li {
+    list-style: none;
+    clear: left;
+    border-bottom: 2px solid #ccc;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#main #left ul li img {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+
+}
+
+#main #left ul li h5 {
+    font-size: 17px;
+    /* margin-left: 15px; */
+    margin-top: 0px;
+}
+
+#main {
+    margin-top: 10px;
+}
+
+#main #right .menu_right ul {
+    padding: 0px;
+    margin: -14px 0px 0px 0px;
+    border: 1px solid blue;
+}
+
+#main #right .menu_right ul li {
+    list-style: none;
+
+}
+
+#main #right .menu_right h3 {
+    background: #3cf22b;
+    height: 40px;
+    margin-top: 0px;
+    /* text-align: 14px; */
+    font-size: 14px;
+    line-height: 40px;
+    text-indent: 120px;
+    color: #fefeff;
+}
+
+#main #right .menu_right ul li a {
+    text-indent: 140px;
+    display: block;
+    text-decoration: none;
+    line-height: 32px;
+    border-bottom: 1px solid red;
+    background: url(./church.jpg) no-repeat;
+    color: #878787;
+}
+
+#main #right .menu_right ul li a:hover{
+    color: yellowgreen;
+}
